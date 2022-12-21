@@ -1,0 +1,14 @@
+[package]
+name = "bruteforce"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+async-trait = "0.1"
+clap = { version = "4.0", features = ["derive"] }
+futures = "0.3"
+genawaiter = "0.99"
+reqwest = "0.11"
+tokio = { version = "1.23", features = ["rt", "macros", "rt-multi-thread"] }
+unicode-segmentation = "1.10"
